@@ -111,9 +111,6 @@ All plans include a **free trial period**. Custom enterprise pricing available o
 
 ---
 
-## Architecture
-
-```
 ┌─────────────┐     MAVLink     ┌──────────────────┐
 │  Drone /     │◄──────────────►│  Companion        │
 │  Autopilot   │                │  Computer (RPi)   │
