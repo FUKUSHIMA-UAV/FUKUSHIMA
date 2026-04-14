@@ -70,7 +70,7 @@ Self-service plan selection, PayPal billing, coupon support, and real-time MRR t
 | Boat Detection | Maritime vessel detection | Coming Soon |
 | Crowd Detection | Crowd density estimation | Coming Soon |
 
-All models are trained with YOLOv8/v11 and exported to ONNX for edge deployment.
+All models are exported to ONNX for optimized edge deployment.
 
 ---
 
@@ -105,64 +105,9 @@ All plans include a **free trial period**. Custom enterprise pricing available o
 
 - **Backend:** Python / Flask
 - **Frontend:** HTML, CSS, JavaScript, Leaflet.js
-- **AI:** YOLOv8/v11, ONNX Runtime
+- **AI:** ONNX Runtime
 - **Payments:** PayPal Subscriptions API
 - **Infrastructure:** Ubuntu VPS (Tokyo region)
 
 ---
 
-┌─────────────┐     MAVLink     ┌──────────────────┐
-│  Drone /     │◄──────────────►│  Companion        │
-│  Autopilot   │                │  Computer (RPi)   │
-└─────────────┘                │  + ONNX Models    │
-                                └────────┬─────────┘
-                                         │ WebSocket
-                                         ▼
-                               ┌──────────────────┐
-                               │  Fukushima GK     │
-                               │  Cloud Dashboard  │
-                               │  (Flask + SQLite)  │
-                               └────────┬─────────┘
-                                         │ HTTPS
-                                         ▼
-                               ┌──────────────────┐
-                               │  Browser UI       │
-                               │  Maps / Telemetry │
-                               │  AI Alerts / Logs │
-                               └──────────────────┘
-```
-
----
-
-## Roadmap
-
-- [x] Offline maps (20 cities)
-- [x] AI model selection per plan
-- [x] Flight log recording & CSV export
-- [x] Parameter tuning (COPTER/PLANE)
-- [x] Mission planning (Waypoint / Survey / Orbit)
-- [x] Fleet management
-- [x] Smoke detection model (mAP50: 0.952)
-- [x] Aircraft detection model (mAP50: 0.947)
-- [ ] Boat detection model
-- [ ] Crowd detection model
-- [ ] Demo video
-- [ ] Mobile-optimized UI
-- [ ] Multi-language support (EN/JP)
-
----
-
-## Contact
-
-**Interested in Fukushima GK for your organization?**
-
-- Website: [fukushima-gk.com](https://fukushima-gk.com)
-- Email: [info@fukushima-gk.com](mailto:info@fukushima-gk.com)
-
-For enterprise inquiries, law enforcement, or defense contracts — reach out directly.
-
----
-
-<p align="center">
-  <sub>© 2026 Fukushima GK. All rights reserved. Source code is proprietary and not included in this repository.</sub>
-</p>
