@@ -67,7 +67,7 @@ Self-service plan selection, PayPal billing, coupon support, and real-time MRR t
 | Flag Recognition | 31-nation flag classification | Defense |
 | Vehicle Shape | Military/civilian vehicle classification | Defense |
 | Camo Pattern | Camouflage pattern detection | Defense |
-| Boat Detection | Maritime vessel detection | Coming Soon |
+| Boat Detection | Maritime vessel detection (mAP50: 0.722) | Police+ |
 | Crowd Detection | Crowd density estimation | Coming Soon |
 
 All models are exported to ONNX for optimized edge deployment.
