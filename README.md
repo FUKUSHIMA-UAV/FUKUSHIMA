@@ -68,7 +68,7 @@ Self-service plan selection, PayPal billing, coupon support, and real-time MRR t
 | Vehicle Shape | Military/civilian vehicle classification | Defense |
 | Camo Pattern | Camouflage pattern detection | Defense |
 | Boat Detection | Maritime vessel detection (mAP50: 0.722) | Police+ |
-| Crowd Detection | Crowd density estimation | Coming Soon |
+| Crowd Detection | Crowd density estimation | Police+ |
 
 All models are exported to ONNX for optimized edge deployment.
 
