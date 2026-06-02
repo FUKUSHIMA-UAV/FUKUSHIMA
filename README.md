@@ -1,114 +1,209 @@
-# FUKUSHIMA GK — AI-Powered UAV Ground Control Station
+# FUKUSHIMA UAV Ground Control Station
 
-<p align="center">
-  <img src="assets/hero-banner.png" alt="Fukushima GK Dashboard" width="100%">
-</p>
+Browser-based Ground Control Station (GCS) for UAV operations, BVLOS mission planning, fleet management, AI-assisted situational awareness, weather-aware mission planning, airspace risk assessment, and mission execution.
 
-<p align="center">
-  <strong>Professional drone operations platform with real-time AI detection, fleet management, and mission planning.</strong>
-</p>
+Official Website: https://fukushima-gk.com
 
-<p align="center">
-  <a href="https://fukushima-gk.com">Live Demo</a> •
-  <a href="#features">Features</a> •
-  <a href="#ai-models">AI Models</a> •
-  <a href="#pricing">Pricing</a> •
-  <a href="#contact">Contact</a>
-</p>
+Live Platform: https://fukushima-gk.com/uav/
+
+Technology Library: https://fukushima-gk.com/technology/
 
 ---
 
 ## Overview
 
-**Fukushima GK** is a cloud-based Ground Control Station (GCS) for UAV / drone operations. It combines a real-time flight dashboard with onboard AI detection models, enabling operators to monitor, detect, and respond — all from a single browser interface.
+FUKUSHIMA UAV is a browser-based Ground Control Station platform designed for commercial, industrial, public safety, and defense UAV operations.
 
-Built for hobbyists, startups, law enforcement, and defense organizations.
+The platform integrates mission planning, telemetry, fleet operations, AI-assisted detection, weather assessment, airspace awareness, and mission execution into a unified web-based environment.
+
+No software installation is required. Operators can access the platform directly from a modern web browser.
 
 ---
 
-## Features
+## Core Capabilities
 
-### Real-Time AI Detection
-Multiple ONNX-optimized detection models run directly on your drone's companion computer, providing instant alerts with bounding boxes and confidence scores.
+### Ground Control Station (GCS)
 
-### Offline Map Support
-Operates in 20+ cities worldwide with pre-cached map tiles — no internet required in the field.
+* Browser-Based Operations
+* Multi-Aircraft Monitoring
+* Real-Time Telemetry
+* Fleet Management
+* Video Wall Operations
+* Mission Replay
+* Flight Log Analysis
 
 ### Mission Planning
-- **Waypoint** — Define flight paths with altitude, speed, and loiter time
-- **Survey Grid** — Automated area coverage for mapping and inspection
-- **Orbit** — Circular surveillance around a point of interest
 
-### Fleet Management
-Monitor multiple aircraft simultaneously on a single dashboard with live telemetry, status indicators, and position tracking.
+* Waypoint Mission Planning
+* Survey Grid Generation
+* Orbit Missions
+* Return-To-Launch Planning
+* Mission Distance Estimation
+* Mission Duration Estimation
+* Aircraft Requirement Planning
+* Fleet Requirement Planning
+* Mission Cost Estimation
 
-### Flight Logs
-Full flight history with CSV export, altitude/speed graphs, and timeline visualization.
+### BVLOS Operations
 
-### Parameter Tuning
-Read and write PID parameters directly from the dashboard. Supports both COPTER and PLANE frame types.
+* Long-Range Mission Planning
+* Mission Risk Assessment
+* Operational Readiness Evaluation
+* Route Analysis
+* Fleet Deployment Planning
 
-### Subscription Management
-Self-service plan selection, PayPal billing, coupon support, and real-time MRR tracking for operators.
+### Weather Risk Assessment
 
----
+* Wind Speed Analysis
+* Wind Direction Analysis
+* Headwind / Tailwind Assessment
+* Battery Impact Estimation
+* Mission GO / CAUTION / NO-GO Decision Support
 
-## AI Models
+### Airspace Risk Assessment
 
-| Model | Description | Availability |
-|---|---|---|
-| Basic Detection | People, vehicles, objects | Startup+ |
-| Collision Avoidance | Obstacle detection for autonomous flight | Startup+ |
-| Weapon Detection | Firearm and weapon identification | Police+ |
-| Fire Detection | Flame and fire source detection | Police+ |
-| Smoke Detection | Smoke plume identification | Police+ |
-| License Plate | Vehicle plate recognition | Police+ |
-| Aircraft Detection | Aerial vehicle identification | Police+ |
-| Flag Recognition | 31-nation flag classification | Defense |
-| Vehicle Shape | Military/civilian vehicle classification | Defense |
-| Camo Pattern | Camouflage pattern detection | Defense |
-| Boat Detection | Maritime vessel detection (mAP50: 0.722) | Police+ |
-| Crowd Detection | Crowd density estimation | Police+ |
-| Drone Detection | Counter-UAS drone identification | Defense |
-
-All models are exported to ONNX for optimized edge deployment.
+* Controlled Airspace Awareness
+* Urban Airspace Risk Assessment
+* Mission Route Analysis
+* NFZ Awareness
+* Operational Decision Support
 
 ---
 
-## Pricing
+## AI-Assisted Operations
 
-| Plan | Price | Included Models |
-|---|---|---|
-| **Hobby** | $10/mo | Dashboard, Maps, Flight Logs, Mission Planning |
-| **Startup** | $300/mo | + Basic Detection, Collision Avoidance |
-| **Police** | $3,000/mo | + Weapon, Fire, Smoke, License Plate, Aircraft |
-| **Defense** | $5,000/mo | All models including Flag, Vehicle Shape, Camo |
+The platform supports integration of ONNX Runtime AI models for edge and cloud deployment.
 
-All plans include a **free trial period**. Custom enterprise pricing available on request.
+Supported applications include:
 
----
-
-## Screenshots
-
-<p align="center">
-  <img src="assets/screenshot-landing.png" alt="Landing Page" width="90%">
-</p>
-
-<p align="center">
-  <img src="assets/screenshot-dashboard.png" alt="Dashboard" width="45%">
-  &nbsp;&nbsp;
-  <img src="assets/screenshot-features.png" alt="Features" width="45%">
-</p>
+* Object Detection
+* Vehicle Detection
+* Aircraft Detection
+* Boat Detection
+* Fire Detection
+* Smoke Detection
+* Crowd Detection
+* Flag Recognition
+* Drone Detection
+* Situational Awareness Systems
 
 ---
 
-## Tech Stack
+## Fleet Management
 
-- **Backend:** Python / Flask
-- **Frontend:** HTML, CSS, JavaScript, Leaflet.js
-- **AI:** ONNX Runtime
-- **Payments:** PayPal Subscriptions API
-- **Infrastructure:** Ubuntu VPS (Tokyo region)
+FUKUSHIMA UAV supports multi-aircraft operations from a single interface.
+
+Features include:
+
+* Fleet Monitoring
+* Aircraft Status Tracking
+* Mission Assignment
+* Telemetry Aggregation
+* Video Wall Integration
+* Operational Dashboards
 
 ---
 
+## Telemetry
+
+Supported technologies:
+
+* MAVLink
+* UDP Telemetry
+* WebSocket Streaming
+* Browser-Based Dashboards
+
+Capabilities:
+
+* Live Position Tracking
+* Flight Mode Monitoring
+* Mission Progress Monitoring
+* Telemetry Visualization
+
+---
+
+## Technology Areas
+
+* Browser-Based Ground Control Stations
+* BVLOS Mission Planning Software
+* MAVLink Telemetry Systems
+* Weather-Aware UAV Operations
+* UAV Airspace Risk Assessment
+* STM32H743 Flight Controller Development
+* ArduPilot Hardware Development
+* PX4 Hardware Development
+* AI UAV Systems
+* Fixed Wing UAV Development
+
+---
+
+## Related Resources
+
+### Service Pages
+
+* https://fukushima-gk.com/gcs/
+* https://fukushima-gk.com/bvlos/
+* https://fukushima-gk.com/custom-fc/
+* https://fukushima-gk.com/fixed-wing-uav/
+* https://fukushima-gk.com/weather-risk/
+* https://fukushima-gk.com/airspace-check/
+
+### Technology Library
+
+* https://fukushima-gk.com/technology/
+* https://fukushima-gk.com/technology/browser-based-ground-control-station.html
+* https://fukushima-gk.com/technology/bvlos-mission-planning-software.html
+* https://fukushima-gk.com/technology/weather-aware-uav-operations.html
+* https://fukushima-gk.com/technology/uav-airspace-risk-assessment.html
+* https://fukushima-gk.com/technology/mavlink-telemetry-systems.html
+
+---
+
+## Technology Stack
+
+Backend:
+
+* Python
+* Flask
+
+Frontend:
+
+* HTML
+* CSS
+* JavaScript
+* Leaflet.js
+
+AI:
+
+* ONNX Runtime
+
+Infrastructure:
+
+* Ubuntu Linux
+* Nginx
+* Gunicorn
+
+Payments:
+
+* PayPal Subscription API
+
+---
+
+## License
+
+Proprietary Software
+
+Copyright © FUKUSHIMA UAV
+
+---
+
+## Contact
+
+Website:
+https://fukushima-gk.com
+
+Ground Control Station:
+https://fukushima-gk.com/uav/
+
+GitHub Organization:
+https://github.com/FUKUSHIMA-UAV
