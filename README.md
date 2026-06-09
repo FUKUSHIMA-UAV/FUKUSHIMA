@@ -1,28 +1,34 @@
-# FUKUSHIMA UAV Ground Control Station
+# KURAGE GCS by FUKUSHIMA LLC
 
-Browser-based Ground Control Station (GCS) for UAV operations, BVLOS mission planning, fleet management, AI-assisted situational awareness, weather-aware mission planning, airspace risk assessment, and mission execution.
+Browser-based Ground Control Station (GCS) for UAV operations, BVLOS mission planning, fleet management, AI-assisted situational awareness, weather-aware mission planning, airspace awareness, and mission execution.
 
-Official Website: https://fukushima-gk.com
+**Official Website:** https://fukushima-gk.com
 
-Live Platform: https://fukushima-gk.com/uav/
+**Platform:** https://fukushima-gk.com/uav/
 
-Technology Library: https://fukushima-gk.com/technology/
+**Products:** https://fukushima-gk.com/platform/
 
 ---
 
 ## Overview
 
-FUKUSHIMA UAV is a browser-based Ground Control Station platform designed for commercial, industrial, public safety, and defense UAV operations.
+KURAGE GCS is a browser-based Ground Control Station platform developed by FUKUSHIMA LLC.
 
-The platform integrates mission planning, telemetry, fleet operations, AI-assisted detection, weather assessment, airspace awareness, and mission execution into a unified web-based environment.
+The platform integrates mission planning, telemetry, fleet operations, AI vision systems, weather assessment, airspace awareness, and operational decision support into a unified web-based environment.
 
 No software installation is required. Operators can access the platform directly from a modern web browser.
+
+KURAGE GCS is part of the KURAGE Tactical Systems product family, which also includes:
+
+* KURAGE Vision
+* KURAGE FC
+* KURAGE OEM GCS
 
 ---
 
 ## Core Capabilities
 
-### Ground Control Station (GCS)
+### Ground Control Station
 
 * Browser-Based Operations
 * Multi-Aircraft Monitoring
@@ -40,39 +46,37 @@ No software installation is required. Operators can access the platform directly
 * Return-To-Launch Planning
 * Mission Distance Estimation
 * Mission Duration Estimation
-* Aircraft Requirement Planning
-* Fleet Requirement Planning
+* Fleet Planning
 * Mission Cost Estimation
 
-### BVLOS Operations
+### Operational Planning
 
 * Long-Range Mission Planning
-* Mission Risk Assessment
-* Operational Readiness Evaluation
 * Route Analysis
 * Fleet Deployment Planning
+* Resource Estimation
+* Mission Readiness Assessment
 
-### Weather Risk Assessment
+### Weather Assessment
 
 * Wind Speed Analysis
 * Wind Direction Analysis
 * Headwind / Tailwind Assessment
 * Battery Impact Estimation
-* Mission GO / CAUTION / NO-GO Decision Support
+* Mission GO / CAUTION / NO-GO Support
 
-### Airspace Risk Assessment
+### Airspace Awareness
 
 * Controlled Airspace Awareness
-* Urban Airspace Risk Assessment
-* Mission Route Analysis
-* NFZ Awareness
+* Urban Airspace Assessment
+* Route Analysis
 * Operational Decision Support
 
 ---
 
-## AI-Assisted Operations
+## AI Vision Integration
 
-The platform supports integration of ONNX Runtime AI models for edge and cloud deployment.
+KURAGE GCS supports integration with AI vision systems running on edge or cloud infrastructure.
 
 Supported applications include:
 
@@ -91,7 +95,7 @@ Supported applications include:
 
 ## Fleet Management
 
-FUKUSHIMA UAV supports multi-aircraft operations from a single interface.
+KURAGE GCS supports multi-aircraft operations from a single interface.
 
 Features include:
 
@@ -122,70 +126,92 @@ Capabilities:
 
 ---
 
-## Technology Areas
+## Related Products
 
-* Browser-Based Ground Control Stations
-* BVLOS Mission Planning Software
-* MAVLink Telemetry Systems
-* Weather-Aware UAV Operations
-* UAV Airspace Risk Assessment
-* STM32H743 Flight Controller Development
-* ArduPilot Hardware Development
-* PX4 Hardware Development
-* AI UAV Systems
-* Fixed Wing UAV Development
+### KURAGE GCS
+
+Browser-based Ground Control Station platform.
+
+https://fukushima-gk.com/platform/
+
+### KURAGE Vision
+
+AI-powered vision security and monitoring platform.
+
+https://fukushima-gk.com/security/
+
+### KURAGE FC
+
+Custom STM32H743 flight controller development and UAV electronics engineering.
+
+https://fukushima-gk.com/custom-fc/
+
+### KURAGE OEM GCS
+
+White-label command platform for UAV manufacturers, defense contractors, and system integrators.
+
+https://fukushima-gk.com/oem-gcs/
 
 ---
 
-## Related Resources
+## Technology Areas
 
-### Service Pages
-
-* https://fukushima-gk.com/gcs/
-* https://fukushima-gk.com/bvlos/
-* https://fukushima-gk.com/custom-fc/
-* https://fukushima-gk.com/fixed-wing-uav/
-* https://fukushima-gk.com/weather-risk/
-* https://fukushima-gk.com/airspace-check/
-
-### Technology Library
-
-* https://fukushima-gk.com/technology/
-* https://fukushima-gk.com/technology/browser-based-ground-control-station.html
-* https://fukushima-gk.com/technology/bvlos-mission-planning-software.html
-* https://fukushima-gk.com/technology/weather-aware-uav-operations.html
-* https://fukushima-gk.com/technology/uav-airspace-risk-assessment.html
-* https://fukushima-gk.com/technology/mavlink-telemetry-systems.html
+* Browser-Based Ground Control Stations
+* MAVLink Telemetry Systems
+* Fleet Management Platforms
+* UAV Mission Planning Software
+* STM32H743 Flight Controller Development
+* ArduPilot Hardware Development
+* PX4 Hardware Development
+* AI Vision Systems
+* Fixed-Wing UAV Development
+* UAV Operations Software
 
 ---
 
 ## Technology Stack
 
-Backend:
+### Backend
 
 * Python
 * Flask
 
-Frontend:
+### Frontend
 
 * HTML
 * CSS
 * JavaScript
 * Leaflet.js
 
-AI:
+### AI
 
 * ONNX Runtime
 
-Infrastructure:
+### Infrastructure
 
 * Ubuntu Linux
 * Nginx
 * Gunicorn
 
-Payments:
+### Payments
 
 * PayPal Subscription API
+
+---
+
+## Company
+
+FUKUSHIMA LLC develops the KURAGE Tactical Systems product family.
+
+Products include:
+
+* KURAGE GCS
+* KURAGE Vision
+* KURAGE FC
+* KURAGE OEM GCS
+
+Website:
+https://fukushima-gk.com
 
 ---
 
@@ -193,7 +219,7 @@ Payments:
 
 Proprietary Software
 
-Copyright © FUKUSHIMA UAV
+Copyright © FUKUSHIMA LLC
 
 ---
 
@@ -202,7 +228,7 @@ Copyright © FUKUSHIMA UAV
 Website:
 https://fukushima-gk.com
 
-Ground Control Station:
+Platform:
 https://fukushima-gk.com/uav/
 
 GitHub Organization:
